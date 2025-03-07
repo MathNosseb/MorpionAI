@@ -6,8 +6,8 @@ import minimax
 #creation du board
 board = [0]*9
 architecture = [9,18,1]
-log_path = "python/ia/Tictactoe/log.txt"
-data_path = "python/ia/Tictactoe/data.txt"
+log_path = "log.txt"
+data_path = "data.txt"
 
 IA = napoleon.Napoleon(architecture,0.5,100)
 
